@@ -12,10 +12,6 @@ app = Flask(__name__)
 def index():
     return render_template('base.html')
 
-@app.route('/clothes/')
-def clothes():
-    return render_template('clothes.html')
-
 @app.route('/shoes/')
 def shoes():
     return render_template('shoes.html')
